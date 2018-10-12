@@ -13,7 +13,8 @@ main_logger.addHandler(c)
 app = Flask(__name__)
 
 @app.route('/')
-def api_entry():
+def api_entry_hello():
+    apm_endpoint()
     return 'Entrypoint to the Application'
 
 @app.route('/api/apm')
