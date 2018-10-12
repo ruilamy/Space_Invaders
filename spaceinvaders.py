@@ -2,6 +2,8 @@
 
 # Space Invaders
 # Created by Lee Robinson
+# Modified by Rui Lamy
+
 
 from pygame import *
 import sys
