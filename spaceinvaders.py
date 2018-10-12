@@ -5,8 +5,9 @@
 # Modified by Rui Lamy
 # Add code for Datadog APM - Import packages and enable tracing
 
-from pygame import *
-import sys
+#from pygame import *
+#import sys
+from pygame
 from os.path import abspath, dirname
 from random import randint, choice
 
