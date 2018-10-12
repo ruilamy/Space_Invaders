@@ -417,7 +417,7 @@ class SpaceInvaders(object):
             self.noteTimer += moveTime
 
     def create_text(self):
-        self.titleText = Text(FONT, 50, 'Space Invaders', WHITE, 164, 155)
+        self.titleText = Text(FONT, 50, '   APM Invaders ', WHITE, 164, 155)
         self.titleText2 = Text(FONT, 25, 'Press any key to continue', WHITE,
                                201, 225)
         self.gameOverText = Text(FONT, 50, 'Game Over', WHITE, 250, 270)
