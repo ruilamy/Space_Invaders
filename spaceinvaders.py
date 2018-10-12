@@ -3,6 +3,7 @@
 # Space Invaders
 # Created by Lee Robinson
 # Modified by Rui Lamy
+# Add code for Datadog APM - Import packages and enable tracing
 
 from pygame import *
 import sys
