@@ -25,4 +25,18 @@ def trace_endpoint():
     return 'Posting Traces'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port='5050')
+    app.run(host='localhost', port='5050')
+
+from flask import Flask
+import blinker as _
+
+from ddtrace import tracer
+from ddtrace.contrib.flask import TraceMiddleware
+
+app = Flask(__name__)
+
+traced_app = TraceMiddleware(app, tracer, service="my-flask-app", distributed_tracing=False)
+
+@app.route("/")
+def home():
+    return "hello world"
