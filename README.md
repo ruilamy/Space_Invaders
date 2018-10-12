@@ -1,5 +1,5 @@
-Killer Space Invaders - APM Testing
-===================================
+APM Invaders - Datadog APM Testing
+==================================
 
 [![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat
 )](https://www.python.org)
